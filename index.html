@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Felicidad en Colombia - CDAT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+        body {
+            margin: 0;
+            font-family: 'Georgia', serif;
+            background-color: #f4f6f8;
+            color: #222;
+            line-height: 1.7;
+        }
+
+        header {
+            height: 100vh;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                        url("imagenes/portada.jpg") center/cover no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            max-width: 800px;
+        }
+
+        section {
+            padding: 80px 10%;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-left: 6px solid #1f2937;
+            padding-left: 15px;
+        }
+
+        .imagenes-dobles {
+            display: flex;
+            gap: 20px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .imagenes-dobles img {
+            width: 48%;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        .grafica {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .grafica img {
+            width: 90%;
+            max-width: 900px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+        }
+
+        footer {
+            background-color: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 40px;
+            margin-top: 60px;
+        }
+
+        @media(max-width: 768px) {
+            .imagenes-dobles img {
+                width: 100%;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>¿Es Colombia tan feliz como creemos?</h1>
+</header>
+
+<section>
+    <h2>Una percepción cultural de alegría</h2>
+    <p>
+        Colombia es reconocida internacionalmente como un país vibrante. 
+        La música, el baile, el fútbol y la calidez humana forman parte de su identidad colectiva. 
+        Desde el Caribe hasta el eje cafetero, el país proyecta una imagen de optimismo y energía social.
+    </p>
+    <p>
+        Sin embargo, cuando la felicidad se mide a través de indicadores estructurales como ingreso, 
+        salud, apoyo social y confianza institucional, la narrativa se vuelve más compleja.
+    </p>
+
+    <div class="imagenes-dobles">
+        <img src="imagenes/carnaval.jpg" alt="Carnaval en Colombia">
+        <img src="imagenes/sonrisa.jpg" alt="Personas celebrando en Colombia">
+    </div>
+</section>
+
+<section>
+    <h2>Desafíos estructurales y realidad social</h2>
+    <p>
+        Aunque Colombia posee una identidad resiliente, enfrenta desafíos persistentes. 
+        La desigualdad económica, la informalidad laboral y la percepción de corrupción 
+        afectan la estabilidad colectiva.
+    </p>
+    <p>
+        La polarización política y las tensiones sociales recientes han debilitado 
+        la confianza en las instituciones, uno de los factores más determinantes 
+        en los niveles de felicidad según el World Happiness Report.
+    </p>
+
+    <div class="imagenes-dobles">
+        <img src="imagenes/desigualdad.jpg" alt="Desigualdad social en Colombia">
+        <img src="imagenes/protesta.jpg" alt="Protestas sociales en Colombia">
+    </div>
+</section>
+
+<section>
+    <h2>Evolución histórica de la felicidad (2011–2024)</h2>
+    <p>
+        Entre 2011 y 2015, Colombia alcanzó uno de sus niveles más altos de felicidad. 
+        Este periodo coincidió con crecimiento económico sostenido y expectativas positivas 
+        frente al proceso de paz.
+    </p>
+    <p>
+        A partir de 2016 se observa una tendencia descendente que se profundiza entre 2019 y 2022, 
+        periodo marcado por pandemia, crisis económica global y tensiones sociales internas.
+        En 2023 y 2024 se evidencia una recuperación parcial, reflejando resiliencia social.
+    </p>
+
+    <div class="grafica">
+        <img src="imagenes/grafica_colombia.png" alt="Gráfica felicidad Colombia 2011-2024">
+    </div>
+</section>
+
+<section>
+    <h2>Comparación regional: Latinoamérica 2024</h2>
+    <p>
+        En el contexto latinoamericano, Colombia se ubica en una posición intermedia. 
+        Países como Costa Rica y Uruguay presentan mayores niveles de bienestar, 
+        asociados a estabilidad institucional y confianza social.
+    </p>
+    <p>
+        Esto sugiere que la cultura alegre no es suficiente para sostener altos niveles 
+        de felicidad si no se acompaña de condiciones estructurales sólidas.
+    </p>
+
+    <div class="grafica">
+        <img src="imagenes/grafica_latam.png" alt="Comparación Latinoamérica 2024">
+    </div>
+</section>
+
+<section>
+    <h2>Redes familiares y resiliencia social</h2>
+    <p>
+        Uno de los elementos más fuertes en Colombia es la cohesión familiar. 
+        En contextos de crisis, las redes sociales y familiares funcionan como amortiguadores emocionales.
+    </p>
+    <p>
+        La felicidad no depende exclusivamente del ingreso económico, sino también 
+        del acompañamiento social y del sentido de pertenencia colectivo.
+    </p>
+
+    <div class="imagenes-dobles">
+        <img src="imagenes/familia.jpg" alt="Familia colombiana reunida">
+        <img src="imagenes/comunidad.jpg" alt="Comunidad apoyándose">
+    </div>
+</section>
+
+<footer>
+    Proyecto académico - Introducción a Ciencia de Datos:
+    Análisis basado en el World Happiness Report 2025
+</footer>
+
+</body>
+</html>
