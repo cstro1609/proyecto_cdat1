@@ -32,6 +32,10 @@
             max-width: 800px;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
         section {
             padding: 80px 10%;
             max-width: 1000px;
@@ -70,6 +74,15 @@
             box-shadow: 0 4px 15px rgba(0,0,0,0.25);
         }
 
+        img {
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+
+        img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+        }
+
         footer {
             background-color: #1f2937;
             color: white;
@@ -94,7 +107,12 @@
 <body>
 
 <header>
-    <h1>¿Es Colombia tan feliz como creemos?</h1>
+    <h1>
+        ¿Es Colombia tan feliz como creemos?<br>
+        <span style="font-size:0.5em; font-weight:300;">
+            Un análisis basado en datos del World Happiness Report 2024
+        </span>
+    </h1>
 </header>
 
 <section>
@@ -170,14 +188,17 @@
 </section>
 
 <section>
-    <h2>Redes familiares y resiliencia social</h2>
+    <h2>Redes familiares y Resiliencia Social</h2>
     <p>
-        Uno de los elementos más fuertes en Colombia es la cohesión familiar. 
-        En contextos de crisis, las redes sociales y familiares funcionan como amortiguadores emocionales.
+        Colombia demuestra resiliencia cultural, pero los datos revelan 
+        que la felicidad sostenible requiere condiciones estructurales sólidas. 
+        La identidad alegre es un activo social poderoso, pero no sustituye 
+        la necesidad de estabilidad institucional, reducción de desigualdad 
+        y confianza colectiva.
     </p>
     <p>
-        La felicidad no depende exclusivamente del ingreso económico, sino también 
-        del acompañamiento social y del sentido de pertenencia colectivo.
+        La felicidad no es solo una emoción. 
+        Es un indicador de desarrollo humano.
     </p>
 
     <div class="imagenes-dobles">
@@ -186,9 +207,25 @@
     </div>
 </section>
 
+<section>
+    <h2>Metodología y Fuente de Datos</h2>
+    <p>
+        Este análisis se basa en datos del World Happiness Report 2025, 
+        el cual evalúa la felicidad a través de encuestas globales 
+        y seis variables principales: PIB per cápita, apoyo social, 
+        esperanza de vida saludable, libertad para tomar decisiones, 
+        generosidad y percepción de corrupción.
+    </p>
+    <p>
+        Las visualizaciones fueron elaboradas conn Python utilizando 
+        herramientas de análisis de datos, y posteriormente integradas 
+        en esta página web para presentar los resultados de forma narrativa.
+    </p>
+</section>
+
 <footer>
-    Proyecto académico - Introducción a Ciencia de Datos:
-    Análisis basado en el World Happiness Report 2025
+   Proyecto académico – Introducción a la Ciencia de Datos<br>
+    Análisis aplicado de Datos Sociales | UTB 2026
 </footer>
 
 </body>
